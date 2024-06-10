@@ -1,0 +1,59 @@
+body{
+    background-image: url("images/background\ image.webp");
+}
+
+.container {
+    width: 40%;
+    height: 470px;
+    margin-top: 100px;
+}
+header {
+    background-color: rgb(248,249,250);
+    height: 250px;
+}
+.title{
+    height: 50px;
+    background-color: rgb(62, 64, 66);
+    text-align: center;
+}
+
+.search{
+    height: 60px;
+    background-color: rgb(248,249,250);
+    margin-top: 30px;
+}
+
+.info h2,p{
+    text-align: center;
+    color:rgb(78, 78, 155);
+}
+.content {
+    height: 350px;
+    background-color: rgb(248,249,250);
+}
+.weather{
+    height: 50%;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+img{
+    height: 150px;
+    width: 150px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.temp {
+  color: rgb(78, 78, 155);
+  margin-top: 20px;
+  font-size:80px;
+}
+
+.generallyInfo{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.generallyInfo p{
+    font-size: medium;
+}
